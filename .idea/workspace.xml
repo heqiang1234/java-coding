@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ad502f31-d026-4191-a566-c063e84b7e2e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/WorkingTools/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="C:\Users\hspcadmin\.m2\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="27HwUFqzl1RLSCkK9yocObIhoRb" />
+  <component name="ProjectViewState">
+    <option name="flattenPackages" value="true" />
+    <option name="foldersAlwaysOnTop" value="false" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Leet-code/src/main/java/com/leetcode/Algorithm/dfs" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\personProject\java-coding\Leet-code\src\main\java\com\leetcode\Algorithm\dfs" />
+      <recent name="F:\personProject\java-coding\Leet-code\src\main\java\com\leetcode\all" />
+      <recent name="F:\personProject\java-coding\Leet-code\src\main\java\com\leetcode\jianzhioffer" />
+      <recent name="F:\personProject\java-coding\Leet-code\src\main\java\com\leetcode\interview" />
+      <recent name="F:\personProject\java-coding\Leet-code\src\main\java\com\leetcode\hotinterview" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Question0207IsPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.all.Question0207IsPalindrome" />
+      <module name="Leet-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.all.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Question0207IsPalindrome" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ad502f31-d026-4191-a566-c063e84b7e2e" name="Default Changelist" comment="" />
+      <created>1648990332897</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1648990332897</updated>
+      <workItem from="1648990335435" duration="1335000" />
+      <workItem from="1648991703632" duration="2821000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="233" y="0" width="814" height="680" key="#Intentions" timestamp="1648990773023">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="0" width="814" height="680" key="#Intentions/0.0.1280.680@0.0.1280.680" timestamp="1648990773023" />
+    <state x="233" y="2" key="#Notifications" timestamp="1648991504031">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="2" key="#Notifications/0.0.1280.680@0.0.1280.680" timestamp="1648991504031" />
+    <state x="233" y="2" key="#Project_Structure" timestamp="1648991858167">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="2" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1648991858167" />
+    <state x="421" y="98" key="FileChooserDialogImpl" timestamp="1648991351468">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="98" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1648991351468" />
+    <state width="1237" height="204" key="GridCell.Tab.0.bottom" timestamp="1648992548049">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1648992548049" />
+    <state width="1237" height="204" key="GridCell.Tab.0.center" timestamp="1648992548048">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1648992548048" />
+    <state width="1237" height="204" key="GridCell.Tab.0.left" timestamp="1648992548048">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1648992548048" />
+    <state width="1237" height="204" key="GridCell.Tab.0.right" timestamp="1648992548049">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1648992548049" />
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1648992549152">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1648992549152" />
+    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1648992549152">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1648992549152" />
+    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1648992549152">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1648992549152" />
+    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1648992549152">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1648992549152" />
+    <state x="144" y="0" key="SettingsEditor" timestamp="1648992523791">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="144" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1648992523791" />
+    <state x="337" y="168" key="com.intellij.ide.util.TipDialog" timestamp="1648991852256">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="337" y="168" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1648991852256" />
+    <state x="28" y="44" key="new project wizard" timestamp="1648990585818">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="28" y="44" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1648990585818" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Leet-code/src/main/java/com/leetcode/all/Question0207IsPalindrome.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
