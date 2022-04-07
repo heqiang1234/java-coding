@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad502f31-d026-4191-a566-c063e84b7e2e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Leet-code/src/main/java/com/leetcode/Algorithm/ListNode/Question237DeleteNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leet-code/target/classes/com/leetcode/all/Question0207IsPalindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/Leet-code/target/classes/com/leetcode/all/Question0207IsPalindrome.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,14 +31,12 @@
   <component name="ProjectId" id="27HwUFqzl1RLSCkK9yocObIhoRb" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
-    <option name="flattenPackages" value="true" />
     <option name="foldersAlwaysOnTop" value="false" />
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Leet-code/src/main/java/com/leetcode/Algorithm/dfs" />
@@ -124,7 +121,9 @@
       <updated>1648990332897</updated>
       <workItem from="1648990335435" duration="1335000" />
       <workItem from="1648991703632" duration="3437000" />
-      <workItem from="1649047103536" duration="9121000" />
+      <workItem from="1649047103536" duration="9172000" />
+      <workItem from="1649135565010" duration="678000" />
+      <workItem from="1649320318293" duration="11494000" />
     </task>
     <servers />
   </component>
@@ -148,26 +147,30 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1649052287421" />
+    <state x="446" y="59" key="#com.intellij.ide.util.MemberChooser" timestamp="1649323407120">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="446" y="59" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1649323407120" />
     <state x="421" y="98" key="FileChooserDialogImpl" timestamp="1648991351468">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="98" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1648991351468" />
-    <state width="1237" height="63" key="GridCell.Tab.0.bottom" timestamp="1649058105111">
+    <state width="1237" height="152" key="GridCell.Tab.0.bottom" timestamp="1649058186563">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="63" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1649058105111" />
-    <state width="1237" height="63" key="GridCell.Tab.0.center" timestamp="1649058105111">
+    <state width="1237" height="152" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1649058186563" />
+    <state width="1237" height="152" key="GridCell.Tab.0.center" timestamp="1649058186563">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="63" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1649058105111" />
-    <state width="1237" height="63" key="GridCell.Tab.0.left" timestamp="1649058105111">
+    <state width="1237" height="152" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1649058186563" />
+    <state width="1237" height="152" key="GridCell.Tab.0.left" timestamp="1649058186563">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="63" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1649058105111" />
-    <state width="1237" height="63" key="GridCell.Tab.0.right" timestamp="1649058105111">
+    <state width="1237" height="152" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1649058186563" />
+    <state width="1237" height="152" key="GridCell.Tab.0.right" timestamp="1649058186563">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="63" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1649058105111" />
+    <state width="1237" height="152" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1649058186563" />
     <state width="1237" height="63" key="GridCell.Tab.1.bottom" timestamp="1649058105111">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -184,18 +187,26 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="63" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1649058105111" />
+    <state x="413" y="65" key="RollbackChangesDialog" timestamp="1649338167581">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="413" y="65" key="RollbackChangesDialog/0.0.1280.680@0.0.1280.680" timestamp="1649338167581" />
     <state x="144" y="0" key="SettingsEditor" timestamp="1648992523791">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="144" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1648992523791" />
-    <state x="337" y="168" key="com.intellij.ide.util.TipDialog" timestamp="1649047110072">
+    <state x="337" y="168" key="com.intellij.ide.util.TipDialog" timestamp="1649320346114">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="337" y="168" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1649047110072" />
-    <state x="28" y="44" key="new project wizard" timestamp="1648990585818">
+    <state x="337" y="168" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1649320346114" />
+    <state x="28" y="44" key="new project wizard" timestamp="1649323122623">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="28" y="44" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1648990585818" />
+    <state x="28" y="44" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1649323122623" />
+    <state x="211" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1649333381316">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="211" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1649333381316" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -209,6 +220,11 @@
           <url>file://$PROJECT_DIR$/Leet-code/src/main/java/com/leetcode/all/Question71SimplifyPath.java</url>
           <line>41</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_51/src.zip!/java/util/concurrent/ThreadPoolExecutor.java</url>
+          <line>1333</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

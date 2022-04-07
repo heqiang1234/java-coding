@@ -15,6 +15,7 @@
         <module>redis</module>
         <module>data-structure</module>
         <module>maven-pub</module>
+        <module>threadpool</module>
     </modules>
 
     <properties>
