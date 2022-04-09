@@ -84,7 +84,19 @@ public class Question429LevelOrder {
         if (root == null){
             return ans1;
         }
-        return null;
+        dfs1(root,0);
+        return ans1;
+    }
+
+    public void dfs1(Node nd, int depth){
+        if (depth == ans1.size()){
+            ans1.add(new ArrayList<>());
+        }
+        List<Integer> list = ans1.get(depth);
+        list.add(nd.val);
+        for (Node ndd: nd.children) {
+            dfs1(ndd, depth + 1);
+        }
     }
 
 }
