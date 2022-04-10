@@ -16,6 +16,8 @@
         <module>data-structure</module>
         <module>maven-pub</module>
         <module>threadpool</module>
+        <module>jvmstudy</module>
+        <module>conCurrentHashMap</module>
     </modules>
 
     <properties>

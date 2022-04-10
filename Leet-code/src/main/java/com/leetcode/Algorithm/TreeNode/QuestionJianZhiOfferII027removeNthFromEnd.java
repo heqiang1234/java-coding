@@ -1,6 +1,4 @@
-package com.leetcode.Algorithm.ListNode;
-
-import java.util.List;
+package com.leetcode.Algorithm.TreeNode;
 
 /**
  * @program: java-coding

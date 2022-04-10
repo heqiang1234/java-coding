@@ -28,10 +28,6 @@ public class ThreadTest {
                 }, //线程工厂 （构建Thread对象）
                 new ThreadPoolExecutor.AbortPolicy()); //拒绝策略
 
-        threadPoolExecutor.execute();
-
-        }
-
-        );
+//        threadPoolExecutor.execute();
     }
 }

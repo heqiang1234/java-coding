@@ -11,6 +11,9 @@
         <module name="data-structure" />
         <module name="maven-pub" />
         <module name="spring" />
+        <module name="threadpool" />
+        <module name="conCurrentHashMap" />
+        <module name="jvmstudy" />
         <module name="rabbit-mq" />
       </profile>
     </annotationProcessing>

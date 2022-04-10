@@ -1,4 +1,4 @@
-package com.leetcode.Algorithm.ListNode;
+package com.leetcode.Algorithm.TreeNode;
 
 import java.util.ArrayList;
 import java.util.List;
