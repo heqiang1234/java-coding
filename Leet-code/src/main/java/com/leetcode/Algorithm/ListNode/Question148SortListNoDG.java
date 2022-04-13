@@ -22,8 +22,9 @@ public class Question148SortListNoDG {
         }
         int indexLength = 1;
         ListNode res = new ListNode(0,head);
-        for (int indexLength = 0; indexLength < headlength; indexLength = indexLength * 2) {
+        for ( indexLength = 0; indexLength < headlength; indexLength = indexLength * 2) {
             
         }
+        return null;
     }
 }
