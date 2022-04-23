@@ -18,24 +18,18 @@ public class Question24SwapPairs {
         if (head == null) {
             return head;
         }
-        while (lenNode != null) {
-            count++;
-            lenNode = lenNode.next;
-        }
-        if (count % 2 != 0) {
-            return head;
-        }
         ListNode res = new ListNode(-1);
         res.next = head;
-        ListNode curr = head;
+        ListNode curr = res;
         while (curr != null) {
             ListNode nextNext = curr.next.next; //保存之后的节点
             ListNode next = curr.next;
 
             curr.next = nextNext;
-            next = curr;
-            curr = nextNext;
+            next.next = nextNext.next;
+            nextNext.next = next;
+            curr = next;
         }
-        return head;
+        return res.next;
     }
 }

@@ -2,13 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad502f31-d026-4191-a566-c063e84b7e2e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/thread.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leet-code/src/main/java/com/leetcode/Algorithm/ListNode/Question148SortListNoDG.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leet-code/src/main/java/com/leetcode/Algorithm/ListNode/Question148SortListNoDG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leet-code/src/main/java/com/leetcode/Algorithm/ListNode/Question24SwapPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leet-code/src/main/java/com/leetcode/Algorithm/ListNode/Question24SwapPairs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leet-code/src/main/java/com/leetcode/Algorithm/ListNode/reveralaist.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leet-code/src/main/java/com/leetcode/Algorithm/ListNode/reveralaist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leet-code/src/main/java/com/leetcode/hotinterview/Question34SearchRange.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leet-code/src/main/java/com/leetcode/hotinterview/Question34SearchRange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leet-code/target/classes/META-INF/Leet-code.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="CoverageViewManager">
     <option name="myElementSize" value="176" />
@@ -16,6 +27,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -34,7 +46,6 @@
   <component name="ProjectId" id="27HwUFqzl1RLSCkK9yocObIhoRb" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
-    <option name="foldersAlwaysOnTop" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -46,9 +57,12 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.ignored.files" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.thtest" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\personProject\java-coding\Leet-code\src\main\java\com\leetcode\Algorithm\dfs" />
       <recent name="F:\personProject\java-coding\Leet-code\src\main\java\com\leetcode\all" />
@@ -57,22 +71,9 @@
       <recent name="F:\personProject\java-coding\Leet-code\src\main\java\com\leetcode\hotinterview" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Question206ReversetList">
-    <configuration name="Question206ReversetList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.Algorithm.ListNode.Question206ReversetList" />
-      <module name="Leet-code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.leetcode.Algorithm.ListNode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Question307NumArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.sginin.Question307NumArray" />
+  <component name="RunManager" selected="Application.Question704Search">
+    <configuration name="Question396MaxRotateFunction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.sginin.Question396MaxRotateFunction" />
       <module name="Leet-code" />
       <extension name="coverage">
         <pattern>
@@ -84,8 +85,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Question357CountNumbersWithUniqueDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.sginin.Question357CountNumbersWithUniqueDigits" />
+    <configuration name="Question581FindUnsortedSubarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.all.Question581FindUnsortedSubarray" />
+      <module name="Leet-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.all.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Question704Search" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.Algorithm.TwoOrderSearch.Question704Search" />
+      <module name="Leet-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.Algorithm.TwoOrderSearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Question821ShortestToChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.sginin.Question821ShortestToChar" />
       <module name="Leet-code" />
       <extension name="coverage">
         <pattern>
@@ -97,21 +124,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Question380RandomizedSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.sginin.Question380RandomizedSet" />
-      <module name="Leet-code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.leetcode.sginin.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="tss" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.sginin.tss" />
+    <configuration name="Question824ToGoatLatin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.sginin.Question824ToGoatLatin" />
       <module name="Leet-code" />
       <extension name="coverage">
         <pattern>
@@ -124,19 +138,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Question357CountNumbersWithUniqueDigits" />
-      <item itemvalue="Application.Question380RandomizedSet" />
-      <item itemvalue="Application.tss" />
-      <item itemvalue="Application.Question307NumArray" />
-      <item itemvalue="Application.Question206ReversetList" />
+      <item itemvalue="Application.Question581FindUnsortedSubarray" />
+      <item itemvalue="Application.Question824ToGoatLatin" />
+      <item itemvalue="Application.Question396MaxRotateFunction" />
+      <item itemvalue="Application.Question821ShortestToChar" />
+      <item itemvalue="Application.Question704Search" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Question206ReversetList" />
-        <item itemvalue="Application.Question307NumArray" />
-        <item itemvalue="Application.tss" />
-        <item itemvalue="Application.Question380RandomizedSet" />
-        <item itemvalue="Application.Question357CountNumbersWithUniqueDigits" />
+        <item itemvalue="Application.Question704Search" />
+        <item itemvalue="Application.Question821ShortestToChar" />
+        <item itemvalue="Application.Question396MaxRotateFunction" />
+        <item itemvalue="Application.Question824ToGoatLatin" />
+        <item itemvalue="Application.Question581FindUnsortedSubarray" />
       </list>
     </recent_temporary>
   </component>
@@ -161,11 +175,24 @@
       <workItem from="1649771874304" duration="1385000" />
       <workItem from="1649816106880" duration="6059000" />
       <workItem from="1649846012344" duration="3340000" />
+      <workItem from="1649922687304" duration="7480000" />
+      <workItem from="1650091932394" duration="12033000" />
+      <workItem from="1650268997115" duration="8564000" />
+      <workItem from="1650285412494" duration="121000" />
+      <workItem from="1650330546751" duration="337000" />
+      <workItem from="1650368884732" duration="1553000" />
+      <workItem from="1650416249534" duration="594000" />
+      <workItem from="1650542354144" duration="2260000" />
+      <workItem from="1650628368982" duration="2240000" />
+      <workItem from="1650692554908" duration="12033000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="readme" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="0" width="814" height="680" key="#Intentions" timestamp="1648990773023">
@@ -176,14 +203,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="2" key="#Notifications/0.0.1280.680@0.0.1280.680" timestamp="1648991504031" />
-    <state x="233" y="2" key="#Project_Structure" timestamp="1648991858167">
+    <state x="233" y="2" key="#Project_Structure" timestamp="1650717234580">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="2" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1648991858167" />
+    <state x="233" y="2" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1650717234580" />
+    <state x="357" y="192" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1650693576498">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="357" y="192" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1280.680@0.0.1280.680" timestamp="1650693576498" />
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1649052287421">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1649052287421" />
+    <state x="387" y="149" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1650717826735">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="387" y="149" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1650717826735" />
     <state x="446" y="59" key="#com.intellij.ide.util.MemberChooser" timestamp="1649323407120">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -192,62 +227,76 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="98" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1648991351468" />
-    <state width="1237" height="247" key="GridCell.Tab.0.bottom" timestamp="1649849461491">
+    <state width="1237" height="189" key="GridCell.Tab.0.bottom" timestamp="1650721244595">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="247" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1649849461491" />
-    <state width="1237" height="247" key="GridCell.Tab.0.center" timestamp="1649849461491">
+    <state width="1237" height="88" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.-360.1707.920@0.0.1280.680" timestamp="1650274038493" />
+    <state width="1663" height="123" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.-360.1707.920@1920.-360.1707.920" timestamp="1649922771673" />
+    <state width="1237" height="189" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1650721244595" />
+    <state width="1237" height="189" key="GridCell.Tab.0.center" timestamp="1650721244594">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="247" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1649849461491" />
-    <state width="1237" height="247" key="GridCell.Tab.0.left" timestamp="1649849461491">
+    <state width="1237" height="88" key="GridCell.Tab.0.center/0.0.1280.680/1920.-360.1707.920@0.0.1280.680" timestamp="1650274038492" />
+    <state width="1663" height="123" key="GridCell.Tab.0.center/0.0.1280.680/1920.-360.1707.920@1920.-360.1707.920" timestamp="1649922771672" />
+    <state width="1237" height="189" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1650721244594" />
+    <state width="1237" height="189" key="GridCell.Tab.0.left" timestamp="1650721244594">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="247" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1649849461491" />
-    <state width="1237" height="247" key="GridCell.Tab.0.right" timestamp="1649849461491">
+    <state width="1237" height="88" key="GridCell.Tab.0.left/0.0.1280.680/1920.-360.1707.920@0.0.1280.680" timestamp="1650274038492" />
+    <state width="1663" height="123" key="GridCell.Tab.0.left/0.0.1280.680/1920.-360.1707.920@1920.-360.1707.920" timestamp="1649922771671" />
+    <state width="1237" height="189" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1650721244594" />
+    <state width="1237" height="189" key="GridCell.Tab.0.right" timestamp="1650721244594">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="247" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1649849461491" />
-    <state width="1237" height="247" key="GridCell.Tab.1.bottom" timestamp="1649849461491">
+    <state width="1237" height="88" key="GridCell.Tab.0.right/0.0.1280.680/1920.-360.1707.920@0.0.1280.680" timestamp="1650274038493" />
+    <state width="1663" height="123" key="GridCell.Tab.0.right/0.0.1280.680/1920.-360.1707.920@1920.-360.1707.920" timestamp="1649922771672" />
+    <state width="1237" height="189" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1650721244594" />
+    <state width="1237" height="189" key="GridCell.Tab.1.bottom" timestamp="1650721244595">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="247" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1649849461491" />
-    <state width="1237" height="247" key="GridCell.Tab.1.center" timestamp="1649849461491">
+    <state width="1237" height="88" key="GridCell.Tab.1.bottom/0.0.1280.680/1920.-360.1707.920@0.0.1280.680" timestamp="1650274039268" />
+    <state width="1237" height="189" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1650721244595" />
+    <state width="1237" height="189" key="GridCell.Tab.1.center" timestamp="1650721244595">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="247" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1649849461491" />
-    <state width="1237" height="247" key="GridCell.Tab.1.left" timestamp="1649849461491">
+    <state width="1237" height="88" key="GridCell.Tab.1.center/0.0.1280.680/1920.-360.1707.920@0.0.1280.680" timestamp="1650274039268" />
+    <state width="1237" height="189" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1650721244595" />
+    <state width="1237" height="189" key="GridCell.Tab.1.left" timestamp="1650721244595">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="247" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1649849461491" />
-    <state width="1237" height="247" key="GridCell.Tab.1.right" timestamp="1649849461491">
+    <state width="1237" height="88" key="GridCell.Tab.1.left/0.0.1280.680/1920.-360.1707.920@0.0.1280.680" timestamp="1650274039268" />
+    <state width="1237" height="189" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1650721244595" />
+    <state width="1237" height="189" key="GridCell.Tab.1.right" timestamp="1650721244595">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="247" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1649849461491" />
+    <state width="1237" height="88" key="GridCell.Tab.1.right/0.0.1280.680/1920.-360.1707.920@0.0.1280.680" timestamp="1650274039268" />
+    <state width="1237" height="189" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1650721244595" />
     <state x="413" y="65" key="RollbackChangesDialog" timestamp="1649338167581">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="413" y="65" key="RollbackChangesDialog/0.0.1280.680@0.0.1280.680" timestamp="1649338167581" />
-    <state x="144" y="0" key="SettingsEditor" timestamp="1649819405323">
+    <state x="144" y="0" width="1093" height="680" key="SettingsEditor" timestamp="1650693653661">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="144" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1649819405323" />
-    <state x="337" y="168" key="com.intellij.ide.util.TipDialog" timestamp="1649846075382">
+    <state x="144" y="0" width="1093" height="680" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1650693653661" />
+    <state x="337" y="168" key="com.intellij.ide.util.TipDialog" timestamp="1650692554663">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="337" y="168" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1649846075382" />
-    <state x="530" y="85" width="746" height="548" key="find.popup" timestamp="1649847935367">
+    <state x="337" y="168" key="com.intellij.ide.util.TipDialog/0.0.1280.680/1920.-360.1707.920@0.0.1280.680" timestamp="1650268996957" />
+    <state x="2369" y="-133" key="com.intellij.ide.util.TipDialog/0.0.1280.680/1920.-360.1707.920@1920.-360.1707.920" timestamp="1649922686668" />
+    <state x="337" y="168" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1650692554663" />
+    <state x="530" y="85" width="746" height="548" key="find.popup" timestamp="1650285043236">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="530" y="85" width="746" height="548" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1649847935367" />
-    <state x="28" y="44" key="new project wizard" timestamp="1649594109855">
+    <state x="530" y="85" width="746" height="548" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1650285043236" />
+    <state x="28" y="44" key="new project wizard" timestamp="1650716755018">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="28" y="44" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1649594109855" />
-    <state x="211" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1649413089758">
+    <state x="28" y="44" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1650716755018" />
+    <state x="211" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1650717131172">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="211" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1649413089758" />
+    <state x="211" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1650717131172" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -416,6 +465,76 @@
           <url>file://$PROJECT_DIR$/Leet-code/src/main/java/com/leetcode/Algorithm/ListNode/Question206ReversetList.java</url>
           <line>16</line>
           <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Leet-code/src/main/java/com/leetcode/hotinterview/Question34SearchRange.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Leet-code/src/main/java/com/leetcode/hotinterview/Question34SearchRange.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Leet-code/src/main/java/com/leetcode/all/Question581FindUnsortedSubarray.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Leet-code/src/main/java/com/leetcode/all/Question581FindUnsortedSubarray.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Leet-code/src/main/java/com/leetcode/all/Question581FindUnsortedSubarray.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Leet-code/src/main/java/com/leetcode/sginin/Question824ToGoatLatin.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Leet-code/src/main/java/com/leetcode/sginin/Question396MaxRotateFunction.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Leet-code/src/main/java/com/leetcode/sginin/Question396MaxRotateFunction.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Leet-code/src/main/java/com/leetcode/sginin/Question821ShortestToChar.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Leet-code/src/main/java/com/leetcode/sginin/Question821ShortestToChar.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Leet-code/src/main/java/com/leetcode/sginin/Question821ShortestToChar.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Leet-code/src/main/java/com/leetcode/sginin/Question821ShortestToChar.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Leet-code/src/main/java/com/leetcode/sginin/Question821ShortestToChar.java</url>
+          <line>86</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Leet-code/src/main/java/com/leetcode/Algorithm/TwoOrderSearch/Question704Search.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="74" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

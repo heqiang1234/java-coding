@@ -49,6 +49,7 @@ public class Question34SearchRange {
                 right = mid - 1;
             }
         }
+        return nums;
 
     }
 
@@ -63,8 +64,11 @@ public class Question34SearchRange {
             if (nums[right] > nums[mid]) {
                 right--;
             }
-            if (nums[mid] ==)
+            if (nums[mid] == 1){
+
+            }
         }
+        return 0;
     }
 
 

@@ -18,6 +18,7 @@
         <module>threadpool</module>
         <module>jvmstudy</module>
         <module>conCurrentHashMap</module>
+        <module>thread</module>
     </modules>
 
     <properties>
