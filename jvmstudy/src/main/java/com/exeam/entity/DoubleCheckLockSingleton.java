@@ -8,7 +8,7 @@ package com.exeam.entity;
  **/
 public class DoubleCheckLockSingleton {
 
-    private static DoubleCheckLockSingleton instance = null;
+    private static  DoubleCheckLockSingleton instance = null;
 
     //DCL
     public static DoubleCheckLockSingleton getInstance(){
