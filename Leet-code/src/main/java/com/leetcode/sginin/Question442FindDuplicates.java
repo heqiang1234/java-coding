@@ -11,7 +11,8 @@ public class Question442FindDuplicates {
     public List<Integer> findDuplicates(int[] nums) {
         int[] nums2 = nums;
         for (int i = 0; i < nums.length; i++) {
-            if()
+
         }
+        return null;
     }
 }
