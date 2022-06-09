@@ -33,20 +33,20 @@ public class Question05LongestPalindrome {
             int len1 = totalLen(i, i, s);
             int len2 = totalLen(i, i + 1, s);
             int maxLen = Math.max(len1, len2);
-            if (maxLen > (start - end)){
-                //start = ;
-               // end = ;
+            if (maxLen > (end - start)){
+                start = i - (maxLen - 1) / 2;
+                end = i + maxLen / 2;
             }
         }
-        return "";
+        return s.substring(start,end + 1);
     }
 
     public static int totalLen(int left, int right, String s) {
-        if (left > 0 && right < s.length() && s.charAt(left) == s.charAt(right)) {
+        while (left >= 0 && right < s.length() && s.charAt(left) == s.charAt(right)) {
             left--;
             right++;
         }
-        return right - left + 1;
+        return right - left - 1;
     }
 
     public static void main(String[] args) {
