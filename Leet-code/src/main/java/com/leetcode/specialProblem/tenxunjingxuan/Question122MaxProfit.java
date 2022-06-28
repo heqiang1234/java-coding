@@ -9,6 +9,6 @@ package com.leetcode.specialProblem.tenxunjingxuan;
 public class Question122MaxProfit {
 
     public int maxProfit(int[] prices) {
-
+        return 0;
     }
 }

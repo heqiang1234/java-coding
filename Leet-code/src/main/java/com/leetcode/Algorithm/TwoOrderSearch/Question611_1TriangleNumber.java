@@ -10,6 +10,6 @@ public class Question611_1TriangleNumber {
 
     //我的想法，找第三条边，两边之和大于第三边，两边之差，小于第三条边。
     public int triangleNumber(int[] nums) {
-
+        return 0;
     }
 }
