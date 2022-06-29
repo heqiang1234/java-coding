@@ -1,5 +1,6 @@
 package com.leetcode.Algorithm.TwoOrderSearch;
 
+<<<<<<< HEAD
 import java.util.Arrays;
 
 /**
@@ -39,5 +40,18 @@ public class Question611_1TriangleNumber {
 
     public static void main(String[] args) {
         System.out.println(triangleNumber(new int[]{0,1,1,1}));
+=======
+/**
+ * @author HQ
+ * @program: java-coding
+ * @description: 611. 有效三角形的个数
+ * @date 2022-06-22 22:33:56
+ */
+public class Question611_1TriangleNumber {
+
+    //我的想法，找第三条边，两边之和大于第三边，两边之差，小于第三条边。
+    public int triangleNumber(int[] nums) {
+
+>>>>>>> ba2527421cf0c6a0b31ec653be0cb6a7f59ef779
     }
 }

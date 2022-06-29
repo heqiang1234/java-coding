@@ -43,6 +43,7 @@ public class Question997SortedSquares {
         }
 
         if (countFu > 0) {
+<<<<<<< HEAD
             int[] res = new int[len];
             int left = 0, right = len - 1;
             int index = len - 1;
@@ -55,6 +56,20 @@ public class Question997SortedSquares {
                     res[index] = nums[left];
                     left++;
                     index--;
+=======
+            len = len - 1;
+            int left = 0, right = len;
+            int[] res = new int[len + 1];
+            while (left <= right) {
+                if (nums[right] > nums[left]) {
+                    res[len] = nums[right];
+                    len--;
+                    right--;
+                } else {
+                    res[len] = nums[left];
+                    len--;
+                    left++;
+>>>>>>> ba2527421cf0c6a0b31ec653be0cb6a7f59ef779
                 }
             }
             return res;
@@ -64,7 +79,11 @@ public class Question997SortedSquares {
     }
 
     public static void main(String[] args) {
+<<<<<<< HEAD
         sortedSquares(new int[]{-4,-1,0,3,10});
+=======
+        sortedSquares(new int[]{-4, -1, 0, 3, 10});
+>>>>>>> ba2527421cf0c6a0b31ec653be0cb6a7f59ef779
     }
 
 }
