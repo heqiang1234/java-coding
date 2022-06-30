@@ -1,5 +1,7 @@
 package com.leetcode.sginin;
 
+import java.util.Arrays;
+
 /**
  * @author: Mr.He
  * @create: 2022-06-30 16:58
@@ -30,29 +32,28 @@ package com.leetcode.sginin;
 public class Question1175NumPrimeArrangements {
 
 
-    public int numPrimeArrangements(int n) {
+    public static int numPrimeArrangements(int n) {
         int tem = getNum(n);
-
-        return getN(tem,);
+        return (int)(getN(tem, n - tem));
     }
 
 
-    public int getNum(int n) {
-        Boolean [] isVisit = new Boolean[2000];
-        int [] prime = new int[2000];
+    public static int getNum(int n) {
+        Boolean[] isVisit = new Boolean[2000];
+        Arrays.fill(isVisit,false);
+        int[] prime = new int[2000];
         int c = 0;
         int count = 0;
-        for(int i = 2;i <= n; ++i)//老规矩，遍历区间
+        for (int i = 2; i <= n; ++i)//老规矩，遍历区间
         {
-            if(isVisit[i] == false) //如果这个数未被访问，则是素数
+            if (isVisit[i] == false) //如果这个数未被访问，则是素数
             {
                 prime[++c] = i;
                 count++;
             }//将素数保存在素数数组里面，计数+1
             //下面for循环及里面的语句才是这个算法的精髓，我们下面细讲
-            for(int j = 1;j <= c && i * prime[j] <= n; ++j)
-            {
-                isVisit[i * prime[j] ] = true;
+            for (int j = 1; j <= c && i * prime[j] <= n; ++j) {
+                isVisit[i * prime[j]] = true;
                 if (i % prime[j] == 0)
                     break;
             }
@@ -60,16 +61,22 @@ public class Question1175NumPrimeArrangements {
         return count;
     }
 
-    public long getN(int num1,int num2){
-        long res= 1;
-        for (int i = 1; i <= num1 ; i++) {
+    public static long getN(int num1, int num2) {
+        long res = 1;
+        for (int i = 1; i <= num1; i++) {
             res *= i;
+            res = res % 1000000007L;
         }
         long num = 1;
-        for (int i = 1; i <= num2 ; i++) {
-            num *= i;
+        for (int i = 1; i <= num2; i++) {
+            num *= i ;
+            num = num % 1000000007L;
         }
-        return num * res;
+        return (num * res) % 1000000007L ;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(numPrimeArrangements(100));
     }
 
 }
