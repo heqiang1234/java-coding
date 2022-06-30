@@ -54,7 +54,7 @@ package com.leetcode.Algorithm.TwoOrderSearch;
  * 链接：https://leetcode.cn/problems/minimum-number-of-days-to-make-m-bouquets
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
-public class Questin1482_1MinDays {
+public class Question1482_1MinDays {
 
     public int minDays(int[] bloomDay, int m, int k) {
         if (m * k > bloomDay.length){
