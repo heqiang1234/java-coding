@@ -20,6 +20,7 @@
         <module>conCurrentHashMap</module>
         <module>thread</module>
         <module>snowflake</module>
+        <module>javaBade</module>
     </modules>
 
     <properties>
