@@ -16,7 +16,7 @@ public class Question240SearchMatrix {
         if (rightIndex == Integer.MIN_VALUE){
             return false;
         }
-        rightIndex = rightIndex == Integer
+//        rightIndex = rightIndex == Integer.MAX_VALUE ?
         if (rightIndex == Integer.MAX_VALUE) {
             leftIndex = checkNum2(matrix, left, right, target,right);
         }
@@ -26,6 +26,7 @@ public class Question240SearchMatrix {
         for (int i = leftIndex; i < right; i++) {
 
         }
+        return false;
 
     }
 
