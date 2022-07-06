@@ -13,19 +13,21 @@ public class Question240SearchMatrix {
         int left = 0, right = matrix.length - 1;
         int rightIndex = checkNum(matrix[0], left, right, target);
         int leftIndex = 0;
-        if (rightIndex == Integer.MIN_VALUE){
+        if (rightIndex == Integer.MIN_VALUE) {
             return false;
         }
-        rightIndex = rightIndex == Integer
+        rightIndex = rightIndex == Integer.MAX_VALUE ? 0 : 1;
         if (rightIndex == Integer.MAX_VALUE) {
-            leftIndex = checkNum2(matrix, left, right, target,right);
+            leftIndex = checkNum2(matrix, left, right, target, right);
         }
-        if (leftIndex == Integer.MIN_VALUE){
+        if (leftIndex == Integer.MIN_VALUE) {
             return false;
         }
         for (int i = leftIndex; i < right; i++) {
 
         }
+
+        return false;
 
     }
 
@@ -46,7 +48,7 @@ public class Question240SearchMatrix {
         return res;
     }
 
-    public Boolean checkNum(int[][] num, int left, int right, int target,int iIndex) {
+    public Boolean checkNum(int[][] num, int left, int right, int target, int iIndex) {
         int res = Integer.MIN_VALUE;
         while (left < right) {
             int mid = left + (right - left) / 2;
@@ -62,7 +64,7 @@ public class Question240SearchMatrix {
         return false;
     }
 
-    public int checkNum2(int[][] num, int left, int right, int target,int jIndex) {
+    public int checkNum2(int[][] num, int left, int right, int target, int jIndex) {
         int res = Integer.MIN_VALUE;
         while (left < right) {
             int mid = left + (right - left) / 2;
