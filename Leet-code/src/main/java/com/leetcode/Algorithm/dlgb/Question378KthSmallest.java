@@ -30,7 +30,7 @@ package com.leetcode.Algorithm.dlgb;
 public class Question378KthSmallest {
 
     public int kthSmallest(int[][] matrix, int k) {
-
+        return 0;
     }
 
 }

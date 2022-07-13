@@ -1,6 +1,7 @@
-package hq.arrayslist;
+package hq.java;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 /**
  * @author HQ
@@ -13,6 +14,10 @@ public class ArraysListTtest {
 
     public static void main(String[] args) {
         ArrayList<Integer> list = new ArrayList<>();
+        System.out.println(list.size());
+        list.add(1);
+        System.out.println(list.size());
+        Collections.synchronizedList(list);
         //list.ensureCapacity();
     }
 }

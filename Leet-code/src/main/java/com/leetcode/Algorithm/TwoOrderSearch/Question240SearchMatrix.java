@@ -28,8 +28,6 @@ public class Question240SearchMatrix {
         }
         return false;
 
-        return false;
-
     }
 
     public int checkNum(int[] num, int left, int right, int target) {

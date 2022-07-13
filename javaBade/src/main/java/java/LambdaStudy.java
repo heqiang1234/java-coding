@@ -1,4 +1,4 @@
-package hq.arrayslist;
+package hq.java;
 
 /**
  * @author HQ
