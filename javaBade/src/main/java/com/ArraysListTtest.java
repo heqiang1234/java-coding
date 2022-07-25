@@ -1,4 +1,4 @@
-package hq.java;
+package com;
 
 import java.util.ArrayList;
 import java.util.Collections;

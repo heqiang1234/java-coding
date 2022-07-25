@@ -1,4 +1,4 @@
-package hq.java;
+package com;
 
 /**
  * @author HQ

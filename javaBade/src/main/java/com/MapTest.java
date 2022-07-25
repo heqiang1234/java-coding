@@ -1,4 +1,4 @@
-package hq.java;
+package com;
 
 import org.apache.commons.collections.map.HashedMap;
 
