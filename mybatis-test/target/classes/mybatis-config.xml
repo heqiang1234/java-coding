@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd//mybatis-3-config.dtd">
+<configuration>
+    <!--默认指向的数据源，多数据源处理-->
+    <environments default="dev">
+        <environment id="dev">
+            <!--采用JDBC方式对数据库事务进行commit//rolllback -->
+            <transactionManager type="JDBC"></transactionManager>
+            <dataSource type="POOLED">
+                <property name="driver" value="com.mysql.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://121.40.43.57:3308/mybatis-test?useUnicode=true&amp;characterEncoding =UTF-8"/>
+                <property name="username" value="root"/>
+                <property name="password" value="123456"/>
+            </dataSource>
+        </environment>
+
+        <environment id="prd">
+            <!--采用JDBC方式对数据库事务进行commit//rolllback -->
+            <transactionManager type="JDBC"></transactionManager>
+            <dataSource type="POOLED">
+                <property name="driver" value="com.mysql.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://121.40.43.57:3306/mybatis-test?useUnicode=true&amp;characterEncoding =UTF-8"/>
+                <property name="username" value="root"/>
+                <property name="password" value="123456"/>
+            </dataSource>
+        </environment>
+    </environments>
+
+</configuration>
