@@ -6,7 +6,7 @@ package com.leetcode.HightInterview;
  * @description: 167. 两数之和 II - 输入有序数组
  * @date 2022-08-10 19:43:56
  */
-public class Question167TwoSum {
+public class Question01_167TwoSum {
 
     public static int[] twoSum(int[] numbers, int target) {
         int len = numbers.length - 1;
