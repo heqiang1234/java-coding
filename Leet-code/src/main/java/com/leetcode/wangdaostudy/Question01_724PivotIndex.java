@@ -8,7 +8,7 @@ import java.util.Arrays;
  * @description: 724. 寻找数组的中心下标
  * @date 2022-08-09 23:07:18
  */
-public class Question724PivotIndex {
+public class Question01_724PivotIndex {
 
     public int pivotIndex(int[] nums) {
         int total = Arrays.stream(nums).sum();

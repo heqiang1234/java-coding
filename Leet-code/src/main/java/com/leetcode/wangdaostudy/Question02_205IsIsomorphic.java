@@ -8,7 +8,7 @@ import java.util.HashMap;
  * @description: 205. 同构字符串
  * @date 2022-08-10 22:22:15
  */
-public class Question205IsIsomorphic {
+public class Question02_205IsIsomorphic {
 
     public static boolean isIsomorphic(String s, String t) {
         if (s.length() != t.length()) {
