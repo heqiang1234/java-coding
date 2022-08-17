@@ -20,4 +20,8 @@ public class Question07_278FirstBadVersion {
         }
         return left;
     }
+
+    private boolean isBadVersion(int mid) {
+        return false;
+    }
 }
