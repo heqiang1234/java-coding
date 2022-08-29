@@ -27,6 +27,7 @@ public class Day2_Question43Multiply {
                 
             }
         }
+        return "";
     }
 
     public String revertString(String str){
