@@ -54,7 +54,7 @@ import com.sun.xml.internal.ws.policy.EffectiveAlternativeSelector;
  * 通过次数856,921提交次数1,443,762
  *
  */
-public class Day01_RemoveElement {
+public class Day01_27RemoveElement {
 
     public static int removeElement(int[] nums, int val) {
         //使用双指针，依次找出一个等于目标值的元素，和不等于目标值的元素，换位置

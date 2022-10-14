@@ -6,7 +6,7 @@ package com.leetcode.daimasuixianglu;
  * @description: 704.二分查找
  * @date 2022-10-12 21:23:12
  */
-public class Day01_Search {
+public class Day01_704Search {
 
     //左闭右闭
     public static int search(int[] nums, int target){
