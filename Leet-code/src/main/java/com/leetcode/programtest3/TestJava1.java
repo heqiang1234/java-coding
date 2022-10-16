@@ -30,9 +30,17 @@ public class TestJava1 extends TestJava {
         Double g = 1.0;
 
         int input = 4;
-        StringBuffer s1=new StringBuffer(input).append("12345");
+        StringBuffer s1=new StringBuffer(input);
+        System.out.println(s1.length());
+        s1.append("12345");
         System.out.println(s1.length());
         System.out.println(s1.capacity());
+
+        String x="7";
+        System.out.println(x);
+        int y = 2;
+        int z=2;
+        System.out.println(x+y+z);
         //System.out.println(i);
         // int n = 3;
         // for (int i = 0; i <= n - 1; i++) {
