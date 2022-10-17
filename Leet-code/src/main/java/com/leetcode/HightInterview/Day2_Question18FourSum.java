@@ -34,7 +34,7 @@ public class Day2_Question18FourSum {
 
     public List<List<Integer>> fourSum(int[] nums, int target) {
         Arrays.sort(nums);
-        
+        return null;
     }
 
 }
