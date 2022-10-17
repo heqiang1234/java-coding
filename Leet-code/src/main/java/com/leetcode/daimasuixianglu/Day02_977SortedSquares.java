@@ -8,7 +8,7 @@ package com.leetcode.daimasuixianglu;
  */
 public class Day02_977SortedSquares {
 
-    public static int[] sortedSquares(int[] nums){
+    public int[] sortedSquares(int[] nums){
         int count = 0;//统计负数
         int len = nums.length - 1;
         for (int i = 0; i <= len; i++) {
