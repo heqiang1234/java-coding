@@ -8,7 +8,7 @@ package com.leetcode.daimasuixianglu;
  */
 public class Day02_209MinSubArrayLen {
 
-    public int minSubArrayLen(int target, int[] nums) {
+    public static int minSubArrayLen(int target, int[] nums) {
         int minSetp = Integer.MAX_VALUE;//定义一个起始值
         int len = nums.length - 1;//数组长度
         int sum = 0;//定义一个和
