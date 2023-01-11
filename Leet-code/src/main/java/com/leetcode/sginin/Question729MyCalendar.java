@@ -37,11 +37,24 @@ package com.leetcode.sginin;
  **/
 public class Question729MyCalendar {
 
+    int [] res;
     public Question729MyCalendar() {
-
+        res = new int[2];
+        res[0] = 0;
+        res[1] = 0;
     }
 
     public boolean book(int start, int end) {
+
+        if (end < res[0]){
+            return true;
+        }
+
+        if (start >= res[1]){
+            return true;
+        }
+
+
 
         return false;
     }
