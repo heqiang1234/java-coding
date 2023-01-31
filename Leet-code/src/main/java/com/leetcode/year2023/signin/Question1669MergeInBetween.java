@@ -12,17 +12,23 @@ public class Question1669MergeInBetween {
 
     public ListNode mergeInBetween(ListNode list1, int a, int b, ListNode list2) {
         //找到断掉的头和尾，然后拼接
-        ListNode lastHead = null;
-        ListNode head = new ListNode(0);
-        head.next = list1;
-        while (head.next != null) {
-            if (head.next.val == a) {
-                head.next = null;
-            } else if (head.next.val == b) {
-
-            }
-            head.next = head;
+        ListNode lastHead = new ListNode(0, list1);
+        ListNode pre = lastHead, cur = list1;
+        for (int i = 0; i < a; i++) {
+            pre = pre.next;
+            cur = cur.next;
         }
+        //pre  头
+        ListNode nxt = cur.next;
+        for (int i = 0; i < b - a; i++) {
+            nxt = nxt.next;
+        }
+        cur = list2;
+        //nxt 尾巴
+        while (cur.next != null) cur = cur.next;
+        pre.next = list2;
+        cur.next = nxt;
+        return lastHead.next;
     }
 
 }
