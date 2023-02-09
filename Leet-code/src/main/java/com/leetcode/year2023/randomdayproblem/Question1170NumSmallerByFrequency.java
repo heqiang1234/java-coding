@@ -20,18 +20,45 @@ public class Question1170NumSmallerByFrequency {
             word[i] = f(words[i]);
         }
 
+        quickSort(quer,0,quer.length - 1);
+        quickSort(word,0,word.length - 1);
         int [] res = new int[queries.length];
         for (int i = 0; i < res.length; i++) {
             int num = quer[i];
             int count = 0;
             for (int j = 0; j < words.length; j++) {
                 if (num < word[j]){
-                    count++;
+                    count = words.length - j - 1;
+                    break;
                 }
             }
             res[i] = count;
         }
         return res;
+    }
+
+    public static void quickSort(int [] nums,int left,int right){
+        if (left > right)
+            return;
+        int baseNum = nums[left];
+        int i = left;
+        int j = right;
+        while (i != j){
+            while (nums[j] >= baseNum && i < j){
+                j--;
+            }
+            while (nums[i] <= baseNum && i < j){
+                i++;
+            }
+            int temp = nums[i];
+            nums[i] = nums[j];
+            nums[j] = temp;
+        }
+        nums[left] = nums[i];
+
+        nums[i] = baseNum;
+        quickSort(nums,left,i-1);
+        quickSort(nums,j + 1,right);
     }
 
     public static int f(String word) {
