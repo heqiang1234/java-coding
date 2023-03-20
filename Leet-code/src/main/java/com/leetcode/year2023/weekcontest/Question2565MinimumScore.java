@@ -9,7 +9,7 @@ package com.leetcode.year2023.weekcontest;
 public class Question2565MinimumScore {
 
     public int minimumScore(String s, String t) {
-
+        return 0;
     }
 
 }
