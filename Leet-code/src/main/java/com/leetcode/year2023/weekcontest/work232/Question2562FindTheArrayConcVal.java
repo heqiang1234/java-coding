@@ -1,4 +1,4 @@
-package com.leetcode.year2023.weekcontest;
+package com.leetcode.year2023.weekcontest.work232;
 
 /**
  * @author HQ

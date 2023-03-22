@@ -1,4 +1,4 @@
-package com.leetcode.year2023.weekcontest;
+package com.leetcode.year2023.weekcontest.work232;
 
 import java.util.Arrays;
 
@@ -21,28 +21,22 @@ public class Question1563CountFairPairs {
      * @return
      */
     public static long countFairPairs(int[] nums, int lower, int upper) {
+        Arrays.sort(nums);
+        return getCurNum(nums,upper) - getCurNum(nums,lower - 1);
+    }
+
+    public static long getCurNum(int[] nums, int k) {
         int len = nums.length - 1;
         long ans = 0;
-        selectOrder(nums);
-        for (int i = 0; i <= len - 1; i++) {
-            int left = i + 1, right = len;
-            while (right >= left) {
-                int tempNum = nums[i] + nums[right];
-                if (tempNum >= lower && tempNum <= upper) {
-                    break;
-                } else {
-                    right--;
-                }
+        int left = 0, right = len;
+        while (left < right) {
+            int temp = nums[right] + nums[left];
+            if (temp <= k){
+                ans += (right - left);
+                left++;
+            } else {
+                right--;
             }
-            while (left <= right) {
-                int tempNum = nums[i] + nums[left];
-                if (tempNum >= lower && tempNum <= upper) {
-                    break;
-                } else {
-                    left++;
-                }
-            }
-            ans += (right - left > 0 ? right - left : 0) + (right >= left ? 1 : 0);
         }
         return ans;
     }
@@ -67,7 +61,7 @@ public class Question1563CountFairPairs {
     }
 
     public static void main(String[] args) {
-        countFairPairs(new int[]{0,1,7,4,4,5}, 3, 6);
+        System.out.println(countFairPairs(new int[]{0, 1, 7, 4, 4, 5}, 3, 6));
     }
 
 }
