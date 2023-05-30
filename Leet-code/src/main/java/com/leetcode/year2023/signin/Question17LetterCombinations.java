@@ -11,15 +11,33 @@ import java.util.List;
  */
 public class Question17LetterCombinations {
 
-    String[] str = new String[]{"abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
+    static String[] str = new String[]{"","","abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
 
-    public List<String> letterCombinations(String digits) {
-        List<String> res = new ArrayList<>();
-        for (int i = 0; i < digits.length(); i++) {
-            int value = digits.charAt(i) - '0';
+    static List<String> res = new ArrayList<>();
 
+    public static  List<String> letterCombinations(String digits) {
+        if (digits == null || digits.length() == 0){
+            return res;
+        }
+        dfsCom(digits,0,"");
+        return res;
+    }
+
+    public static void dfsCom(String digits,Integer index,String s){
+        if (index == digits.length()){
+            res.add(s);
+            return;
+        }
+
+        int value = digits.charAt(index) - '0';
+        String tmp = str[value];
+        for (int i = 0; i < tmp.length(); i++) {
+            dfsCom(digits,index + 1,s + tmp.charAt(i));
         }
     }
 
+    public static void main(String[] args) {
+        System.out.println(letterCombinations("23"));
+    }
 
 }

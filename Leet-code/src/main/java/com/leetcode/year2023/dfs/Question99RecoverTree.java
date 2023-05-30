@@ -2,6 +2,9 @@ package com.leetcode.year2023.dfs;
 
 import com.leetcode.model.TreeNode;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * @author HQ
  * @program: java-coding
@@ -10,34 +13,65 @@ import com.leetcode.model.TreeNode;
  */
 public class Question99RecoverTree {
 
-    private TreeNode x = null;
-    private TreeNode y = null;
-    private TreeNode pre = null;
+    //使用额外的list储存节点，然后交换对应节点的值
     public void recoverTree(TreeNode root) {
-        dfsTree(root);
-        if (x != null && y != null){
+        List<TreeNode> list = new ArrayList<>();
+        TreeNode x = null;
+        TreeNode y = null;//定义两个的临时节点，储存错误值
+        dfsTree(root, list);//将节点储存进list
+        int pre = list.get(0).val;
+        for (int i = 0; i < list.size() - 1; i++) {
+            if (list.get(i).val > list.get(i + 1).val) {
+                y = list.get(i + 1);
+                if (x == null) {
+                    x = list.get(i);//储存前面一个 》 的
+                }
+            }
+        }
+        if (x != null && y != null) {
             int temp = x.val;
             x.val = y.val;
             y.val = temp;
         }
     }
 
-    //中序遍历 1，3，2，4   使用 x,y储存3，2
-    public void dfsTree(TreeNode rt){
-        if (rt == null)
+    public void dfsTree(TreeNode rt, List<TreeNode> list) {
+        if (rt == null) {
             return;
-        dfsTree(rt.left);
-        if (pre != null){
-            pre = rt;
+        }
+        dfsTree(rt.left, list);
+        list.add(rt);
+        dfsTree(rt.right, list);
+    }
+
+    //
+    private TreeNode pre = null;
+    private TreeNode x = null;
+    private TreeNode y = null;
+    public void recoverTreeTwo(TreeNode root) {
+        if (root == null) {
+            return;
+        }
+        dfsTreeTwo(root);
+    }
+
+    public void dfsTreeTwo(TreeNode tn) {
+        if (tn == null){
+            return;
+        }
+        dfsTreeTwo(tn.left);
+        if (pre == null){
+            pre = tn;
         } else {
-            if (pre.val > rt.val){
-                y = rt;
+            if (pre.val > tn.val){
+                y = tn;
                 if (x == null){
                     x = pre;
                 }
             }
+            pre = tn;
         }
-        dfsTree(rt.right);
+        dfsTreeTwo(tn.right);
     }
 
 }
