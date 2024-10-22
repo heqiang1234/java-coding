@@ -22,6 +22,7 @@
         <module>snowflake</module>
         <module>javaBade</module>
         <module>mybatis-test</module>
+        <module>java-base</module>
     </modules>
 
     <properties>
