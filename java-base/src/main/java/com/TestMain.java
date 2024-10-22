@@ -67,7 +67,6 @@ public class TestMain {
         String str1 = list1.get(0); //返回类型就是String
 
         ArrayList list2 = new ArrayList<String>();
-        list1.get()
         list2.add("1"); //编译通过
         list2.add(1); //编译通过
         Object object = list2.get(0); //返回类型就是Object
