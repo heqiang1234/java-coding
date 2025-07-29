@@ -31,7 +31,7 @@ public class Question289GameOfLife {
      * @return
      */
     public boolean changeLife(int[][] board) {
-        int countLive = 0;/
+        int countLive = 0;
         int countDead = 0;
 
         return true;

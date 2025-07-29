@@ -14,7 +14,7 @@ public class Quesiton80RemoveDuplicates {
                 count = 0;
             } else {
                 if (nums[index] == lastNum) {
-                    count++
+                    count++;
                 }
             }
         }
