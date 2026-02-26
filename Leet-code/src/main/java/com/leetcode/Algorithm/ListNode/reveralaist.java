@@ -10,29 +10,28 @@ import com.leetcode.model.ListNode;
  */
 public class reveralaist {
 
-    public static ListNode ReversList(ListNode node){
-        ListNode prev = null;
+    public static ListNode ReversList(ListNode node) {
         ListNode curr = node;
-        while (curr != null){
-            ListNode next = curr.next; //将下一个记录下来
-            curr.next = prev; //将当前的节点下一个节点指向前一个节点
-            prev = curr; //将当前节点指向上一个节点
-            curr = next; //将之前记录的下一个节点记录下来，
+        ListNode prev = null;
+        while (curr != null) {
+            ListNode next = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = next;
         }
         return prev;
     }
 
 
-
     public static void main(String[] args) {
-        ListNode res = new ListNode(-1, new ListNode(1,new ListNode(2, new ListNode(3))));
+        ListNode res = new ListNode(-1, new ListNode(1, new ListNode(2, new ListNode(3))));
         ReversList(res.next);
     }
 
-    public ListNode rev(ListNode head){
+    public ListNode rev(ListNode head) {
         ListNode curr = head;
         ListNode prev = null;
-        while (head != null){
+        while (head != null) {
             ListNode next = curr.next;
             curr.next = prev;
             prev = curr;
