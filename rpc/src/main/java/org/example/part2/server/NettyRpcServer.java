@@ -4,7 +4,8 @@ import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
-import org.example.part2.client.netty.NettyClientInitlizer;
+import lombok.AllArgsConstructor;
+import org.example.part2.common.ServicePrivider;
 
 /**
  * @author: HQ
@@ -12,7 +13,10 @@ import org.example.part2.client.netty.NettyClientInitlizer;
  * @date: 2026/3/5 07:15
  * @Description: netty服务端
  */
+@AllArgsConstructor
 public class NettyRpcServer implements RpcServer {
+
+    private ServicePrivider servicePrivider;
 
     @Override
     public void start(int port) {
@@ -21,8 +25,9 @@ public class NettyRpcServer implements RpcServer {
 
         ServerBootstrap serverBootstrap = new ServerBootstrap();
 
-        serverBootstrap.group(bossGroup, workGroup).channel(NioServerSocketChannel.class).childHandler(new NettyClientInitlizer());
-
+        serverBootstrap.group(bossGroup, workGroup).channel(NioServerSocketChannel.class).
+                childHandler(new NettyServerInitializer(servicePrivider));
+        System.out.println("netty服务端启动了");
         try {
             ChannelFuture channelFuture = serverBootstrap.bind(port).sync();
             channelFuture.channel().closeFuture().sync();

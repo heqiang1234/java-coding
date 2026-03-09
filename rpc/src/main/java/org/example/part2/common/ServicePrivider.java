@@ -16,6 +16,10 @@ public class ServicePrivider {
         this.interfaceProvider = interfaceProvider;
     }
 
+    public ServicePrivider() {
+        this.interfaceProvider = new HashMap<>();
+    }
+
     public void provideServiceInterface(Object service) {
         String name = service.getClass().getName();
         Class<?>[] interfaces = service.getClass().getInterfaces();

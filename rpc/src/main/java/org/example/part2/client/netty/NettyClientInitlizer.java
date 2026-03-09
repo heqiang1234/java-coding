@@ -21,10 +21,12 @@ public class NettyClientInitlizer extends ChannelInitializer<SocketChannel> {
         ChannelPipeline pipeline = sc.pipeline();
         //【消息格式】 【消息体】【长度】，解决粘包
         pipeline.addLast(new LengthFieldBasedFrameDecoder(Integer.MAX_VALUE, 0, 4, 0, 4));
-        // 编码器
-        pipeline.addLast(new ObjectEncoder());
+
         // 计算的当前未发送消息的长度，写入前4个字符
         pipeline.addLast(new LengthFieldPrepender(4));
+
+        // 编码器
+        pipeline.addLast(new ObjectEncoder());
         //解码器
         //使用了Netty中的ObjectDecoder，它用于将字节流解码为 Java 对象。
         //在ObjectDecoder的构造函数中传入了一个ClassResolver 对象，用于解析类名并加载相应的类。

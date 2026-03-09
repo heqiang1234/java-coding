@@ -8,6 +8,8 @@ import io.netty.handler.codec.LengthFieldPrepender;
 import io.netty.handler.codec.serialization.ClassResolver;
 import io.netty.handler.codec.serialization.ObjectDecoder;
 import io.netty.handler.codec.serialization.ObjectEncoder;
+import lombok.AllArgsConstructor;
+import org.example.part2.common.ServicePrivider;
 
 /**
  * @author: HQ
@@ -15,7 +17,10 @@ import io.netty.handler.codec.serialization.ObjectEncoder;
  * @date: 2026/3/5 07:20
  * @Description: 初始化处理器
  */
+@AllArgsConstructor
 public class NettyServerInitializer extends ChannelInitializer<SocketChannel> {
+    private ServicePrivider servicePrivider;
+
     @Override
     protected void initChannel(SocketChannel sc) throws Exception {
         ChannelPipeline pipeline = sc.pipeline();
@@ -32,6 +37,6 @@ public class NettyServerInitializer extends ChannelInitializer<SocketChannel> {
             }
         }));
 
-        pipeline.addLast(new NettyServerHanlder());
+        pipeline.addLast(new NettyServerHanlder(servicePrivider));
     }
 }

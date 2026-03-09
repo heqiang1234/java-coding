@@ -2,6 +2,7 @@ package org.example.part2.server;
 
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
+import lombok.AllArgsConstructor;
 import org.example.part2.common.RpcRequest;
 import org.example.part2.common.RpcResponse;
 import org.example.part2.common.ServicePrivider;
@@ -15,6 +16,7 @@ import java.lang.reflect.Method;
  * @date: 2026/3/5 07:15
  * @Description: 服务器处理器
  */
+@AllArgsConstructor
 public class NettyServerHanlder extends SimpleChannelInboundHandler<RpcRequest> {
 
     private ServicePrivider servicePrivider;
