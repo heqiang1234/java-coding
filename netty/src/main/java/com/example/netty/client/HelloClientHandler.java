@@ -1,7 +1,9 @@
 package com.example.netty.client;
 
+import io.netty.buffer.Unpooled;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
+import io.netty.util.CharsetUtil;
 
 public class HelloClientHandler extends SimpleChannelInboundHandler<String> {
     @Override
@@ -12,6 +14,7 @@ public class HelloClientHandler extends SimpleChannelInboundHandler<String> {
     @Override
     public void channelActive(ChannelHandlerContext ctx) throws Exception {
         System.out.println("client active ");
+        ctx.writeAndFlush(Unpooled.copiedBuffer("How are you:", CharsetUtil.UTF_8));
         super.channelActive(ctx);
     }
 

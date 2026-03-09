@@ -23,6 +23,7 @@
         <module>javaBade</module>
         <module>mybatis-test</module>
         <module>java-base</module>
+        <module>rpc</module>
     </modules>
 
     <properties>
