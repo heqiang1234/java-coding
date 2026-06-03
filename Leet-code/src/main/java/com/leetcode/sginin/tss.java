@@ -1,8 +1,6 @@
 package com.leetcode.sginin;
 
-import com.sun.java.swing.plaf.windows.WindowsTextAreaUI;
 
-import javax.jnlp.ClipboardService;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;

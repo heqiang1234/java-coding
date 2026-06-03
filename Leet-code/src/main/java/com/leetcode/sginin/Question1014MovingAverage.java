@@ -1,7 +1,5 @@
 package com.leetcode.sginin;
 
-import javax.jnlp.ClipboardService;
-import java.sql.ClientInfoStatus;
 import java.util.ArrayList;
 import java.util.List;
 

@@ -1,7 +1,6 @@
 package com.leetcode.Algorithm.ListNode;
 
 import com.leetcode.model.ListNode;
-import jdk.internal.org.objectweb.asm.util.CheckAnnotationAdapter;
 
 import java.util.List;
 

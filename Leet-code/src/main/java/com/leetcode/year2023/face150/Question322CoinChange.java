@@ -1,8 +1,5 @@
 package com.leetcode.year2023.face150;
 
-import com.leetcode.all.MaxProduct;
-import com.sun.org.apache.bcel.internal.generic.IF_ACMPEQ;
-import javafx.print.Collation;
 
 import java.util.Arrays;
 

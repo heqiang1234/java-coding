@@ -1,8 +1,6 @@
 package com.leetcode.wangdaostudy;
 
 import com.leetcode.model.TreeNode;
-import io.netty.util.concurrent.SingleThreadEventExecutor;
-import sun.reflect.generics.tree.Tree;
 
 import java.util.*;
 

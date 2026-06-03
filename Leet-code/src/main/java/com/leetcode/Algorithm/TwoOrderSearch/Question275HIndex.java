@@ -1,6 +1,5 @@
 package com.leetcode.Algorithm.TwoOrderSearch;
 
-import ch.qos.logback.core.encoder.EchoEncoder;
 
 /**
  * @author HQ

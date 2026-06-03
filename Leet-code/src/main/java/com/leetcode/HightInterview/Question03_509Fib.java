@@ -1,6 +1,5 @@
 package com.leetcode.HightInterview;
 
-import netscape.security.UserTarget;
 
 /**
  * @author HQ
